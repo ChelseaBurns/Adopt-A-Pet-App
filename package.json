@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap_project1",
+  "version": "1.0.0",
+  "description": "This is a basic form built with Bootstrap.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChelseaBurns/bootstrap_project1.git"
+  },
+  "author": "Chelsea Burns <co.designux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChelseaBurns/bootstrap_project1/issues"
+  },
+  "homepage": "https://github.com/ChelseaBurns/bootstrap_project1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0"
+  }
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The Adopt-A-Pet Shop</title>
+
+    <!--Custom page links -->
+    <link rel="stylesheet" href="styles/main.css" />
+
+
+    <!--Bootstap links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+    <h1>Welcome to the Adopt-A-Pet Shop!</h1>
+  <p class="lead">Tennessee's largest non-profit pet adoption website.</p>
+  <div class="panel panel-warning">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><h3>Pet Gallery</h3></div>
+    <table class="table" >
+      <thead>
+        <tr>
+        <th>Photo</th>
+        <th>Name</th>
+        <th>Species</th>
+        <th>Take Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td>
+          <img src="http://a.deviantart.net/avatars/j/e/jesus-lizard.jpg?1" class="img-responsive" alt="Lizard image">
+        </td>
+          <td> My name is Lizzy.</td>
+          <td>I am a Lizard.</td>
+          <td><button type="button" class="btn btn-warning">Adopt Me!</button>
+          </td>
+      </tbody>
+ <tbody>
+        <tr>
+        <td>
+          <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/v/t1.0-1/c59.13.158.158/s50x50/581277_351490474922702_317946621_n.jpg?oh=ee6904172366d43764da45040381906b&oe=55A0A530&__gda__=1437861588_90552e9ce9e1b9dd71451427ce313779" class="img-responsive2" alt="Parrot image" />
+        </td>
+          <td> My name is Pierre.</td>
+          <td>I am a parrot.</td>
+          <td><button type="button" class="btn btn-warning">Adopt Me!</button>
+          </td>
+      </tbody>
+       <tbody>
+        <tr>
+        <td>
+          <img src="http://www.sherv.net/cm/emoticons/cats/kitten-lick-smiley-emoticon.gif"class="img-responsive2" alt="Kitten image" />
+        </td>
+        <td> My name is Cuddles.</td>
+        <td>I am a kitten.</td>
+        <td><button type="button" class="btn btn-warning">Adopt Me!</button>
+        </td>
+      </tbody>
+</table>
+</div>
+
+  <h2>Add A Pet for Adoption</h2>
+
+  <div class=""></div>
+
+  <form>
+
+  <div class="form-group">
+    <label for="photoUpload">Add Photo</label>
+    <button type="button" class="btn btn-default btn-xs">Browse</button>
+    <input type="photo" class="form-control" id="photoUpload" placeholder="Upload Photo">
+  </div>
+
+  <div class="form-group">
+    <label for="name">Pet Name</label>
+    <input type="name" class="form-control" id="name" placeholder="Enter Name">
+  </div>
+
+  <div class="form-group">
+    <label for="name">Species</label>
+    <input type="name" class="form-control" id="species" placeholder="Species">
+  </div>
+
+  <button type="submit" class="btn btn-warning">Save</button>
+
+  </form>
+</div>
+</div>
+</body>
+
+</html>

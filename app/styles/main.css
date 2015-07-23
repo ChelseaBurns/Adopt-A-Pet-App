@@ -1,0 +1,29 @@
+.img-responsive2 {
+    border: 1px solid black;
+
+}
+
+div {
+margin-bottom:2px;
+}
+h1 {
+text-align: center;
+padding-bottom:8px;
+}
+
+h2 {
+padding-bottom:8px;
+}
+
+th, label {
+color:orange;
+}
+
+p {
+text-align:center;
+}
+
+body {
+background-color:lightblue;
+}
+
