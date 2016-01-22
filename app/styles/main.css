@@ -1,29 +1,35 @@
-.img-responsive2 {
+.jumbotron {
+	color: orange;
+	margin:1% 0;
+}
+	clear: both;
+}
+.img-responsive {
     border: 1px solid black;
 
 }
 
 div {
-margin-bottom:2px;
+	margin-bottom:2px;
 }
 h1 {
-text-align: center;
-padding-bottom:8px;
+	text-align: center;
+	padding-bottom:8px;
 }
 
 h2 {
-padding-bottom:8px;
+	padding-bottom:8px;
 }
 
 th, label {
-color:orange;
+	color:orange;
 }
 
 p {
-text-align:center;
+	text-align:center;
 }
 
-body {
-background-color:lightblue;
+.container {
+	margin-bottom: 2%;
 }
 
